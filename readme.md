@@ -58,7 +58,7 @@ O usuário é redirecionado para a rota `/home` (Dashboard).
 4. Clicar no botão **“Entrar”**.
 
 **Resultado Esperado:**  
-Exibir a mensagem de erro: **"Email e/ou senha inválidos"**.
+Exibir a mensagem de erro: **“Email e/ou senha inválidos”**.
 
 #### 2.2 E‑mail inexistente
 
@@ -72,7 +72,7 @@ Exibir a mensagem de erro: **"Email e/ou senha inválidos"**.
 4. Clicar no botão **“Entrar”**.
 
 **Resultado Esperado:**  
-Exibir a mensagem de erro: **"Email e/ou senha inválidos"**.
+Exibir a mensagem de erro: **“Email e/ou senha inválidos”**.
 
 ---
 
@@ -121,20 +121,20 @@ O formulário não é submetido.
 **Resultado Esperado:**  
 Os seguintes elementos devem estar visíveis:
 
-- Título **"Login"**
-- Campo **"Email"**
-- Campo **"Senha"**
-- Botão **"Entrar"**
-- Link **"Cadastrar"**
+- Título **“Login”**
+- Campo **“Email”**
+- Campo **“Senha”**
+- Botão **“Entrar”**
+- Link **“Cadastrar”**
 
 #### 5.2 Navegação para cadastro
 
 **ID:** `LGN-007`  
-**Descrição:** Deve garantir que o link **"Cadastrar"** redireciona corretamente.
+**Descrição:** Deve garantir que o link **“Cadastrar”** redireciona corretamente.
 
 **Ações (Steps):**
 1. Acessar a página de Login.
-2. Clicar no link **"Cadastrar"**.
+2. Clicar no link **“Cadastrar”**.
 
 **Resultado Esperado:**  
 O usuário é redirecionado para a rota `/cadastrarusuarios`.
