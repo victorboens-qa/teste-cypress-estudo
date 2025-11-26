@@ -1,0 +1,106 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-11-26T21:21:27.510Z",
+    "end": "2025-11-26T21:21:29.953Z",
+    "duration": 2443,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "6ca0cfe8-c35b-4466-9c05-8ba0962ae94c",
+      "title": "",
+      "fullFile": "cypress/e2e/login/3. Validações de campos obrigatórios (Empty Fields)/login-invalido_LGN-004.cy.js",
+      "file": "cypress/e2e/login/3. Validações de campos obrigatórios (Empty Fields)/login-invalido_LGN-004.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "484f1e90-ea69-48e9-b74f-eee2490ec137",
+          "title": "Deve impedir o login com ambos os campos vazios. - LGN-004",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "O formulário não deve ser submetido, com a validação focada no primeiro campo vazio.",
+              "fullTitle": "Deve impedir o login com ambos os campos vazios. - LGN-004 O formulário não deve ser submetido, com a validação focada no primeiro campo vazio.",
+              "timedOut": null,
+              "duration": 1467,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.get('[data-testid=\"entrar\"]').click();\ncy.get('.alert').should('exist');",
+              "err": {},
+              "uuid": "6c7a9a5b-9623-4cfe-9cc3-d37b6e5d3e5c",
+              "parentUUID": "484f1e90-ea69-48e9-b74f-eee2490ec137",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "6c7a9a5b-9623-4cfe-9cc3-d37b6e5d3e5c"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 1467,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.4"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/results",
+        "overwrite": false,
+        "html": true,
+        "json": true,
+        "timestamp": "mmddyyyy_HHMMss"
+      },
+      "version": "6.3.2"
+    }
+  }
+}

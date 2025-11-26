@@ -1,0 +1,106 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-11-26T21:21:15.517Z",
+    "end": "2025-11-26T21:21:18.544Z",
+    "duration": 3027,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "bf40e365-e9a8-4f6d-8245-cfb2388677ba",
+      "title": "",
+      "fullFile": "cypress/e2e/login/1. Login com credenciais válidas (Happy Path)/login-valido_LGN-001.cy.js",
+      "file": "cypress/e2e/login/1. Login com credenciais válidas (Happy Path)/login-valido_LGN-001.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "e841e66e-6eec-4aa6-85b3-67227c330382",
+          "title": "eve logar com sucesso e redirecionar para a Dashboard. - LGN-001",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "O usuário é redirecionado para a rota /home (Dashboard).",
+              "fullTitle": "eve logar com sucesso e redirecionar para a Dashboard. - LGN-001 O usuário é redirecionado para a rota /home (Dashboard).",
+              "timedOut": null,
+              "duration": 2066,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.get('[data-testid=\"email\"]').type('johndoe@example.com');\ncy.get('[data-testid=\"senha\"]').type('Senha123');\ncy.get('[data-testid=\"entrar\"]').click();",
+              "err": {},
+              "uuid": "75e9c4c8-6ea5-40fc-b9d3-fed822450fc7",
+              "parentUUID": "e841e66e-6eec-4aa6-85b3-67227c330382",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "75e9c4c8-6ea5-40fc-b9d3-fed822450fc7"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 2066,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.4"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/results",
+        "overwrite": false,
+        "html": true,
+        "json": true,
+        "timestamp": "mmddyyyy_HHMMss"
+      },
+      "version": "6.3.2"
+    }
+  }
+}

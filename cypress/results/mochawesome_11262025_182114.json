@@ -1,0 +1,106 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-11-26T21:21:12.313Z",
+    "end": "2025-11-26T21:21:14.681Z",
+    "duration": 2368,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "bc757ffa-642c-4f18-af87-414c19c325eb",
+      "title": "",
+      "fullFile": "cypress/e2e/interface/5. Elementos da tela e navegação/elementos-interface_LGN-007.cy.js",
+      "file": "cypress/e2e/interface/5. Elementos da tela e navegação/elementos-interface_LGN-007.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "f12ce430-d46f-43ed-a0fa-18651beac9ec",
+          "title": "Deve garantir que o link \"Cadastrar\" redireciona corretamente. - LGN-006",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "O usuário é redirecionado para a rota /cadastrarusuarios.",
+              "fullTitle": "Deve garantir que o link \"Cadastrar\" redireciona corretamente. - LGN-006 O usuário é redirecionado para a rota /cadastrarusuarios.",
+              "timedOut": null,
+              "duration": 1400,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.get('[data-testid=\"cadastrar\"]').click();",
+              "err": {},
+              "uuid": "d85981bb-1913-4f25-86df-6845fbbadf1e",
+              "parentUUID": "f12ce430-d46f-43ed-a0fa-18651beac9ec",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "d85981bb-1913-4f25-86df-6845fbbadf1e"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 1400,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.4"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/results",
+        "overwrite": false,
+        "html": true,
+        "json": true,
+        "timestamp": "mmddyyyy_HHMMss"
+      },
+      "version": "6.3.2"
+    }
+  }
+}
