@@ -1,16 +1,16 @@
-# 🧪 Roteiro de Testes – ServeRest Login
+# Roteiro de Testes – ServeRest Login
 
 Este documento descreve o plano de testes para a tela de **Login** do ServeRest, detalhando os cenários e casos de teste a serem automatizados com **Cypress**.
 
 ---
 
-## 🎯 Objetivo
+## Objetivo
 
 Garantir que a funcionalidade de login esteja operando corretamente, permitindo que usuários cadastrados acessem o sistema e bloqueando acessos inválidos.
 
 ---
 
-## 🛠️ Pré-requisitos
+## Pré-requisitos
 
 - **URL Base:** https://front.serverest.dev/login  
 - **Tecnologia:** Cypress  
@@ -22,7 +22,7 @@ Garantir que a funcionalidade de login esteja operando corretamente, permitindo 
 
 ---
 
-## 📝 Casos de Teste (Test Cases)
+## Casos de Teste (Test Cases)
 
 Os casos de teste serão agrupados por funcionalidade (**Suites**) para organização no Cypress.
 
